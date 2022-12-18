@@ -4,7 +4,17 @@ import './Navar.css'
 const Navar = () => {
   return (
     <nav>
-        About me
+      <div className='left-nav'>
+
+      </div>
+      <div className='right-nav'>
+        <ul>
+          <li>Inicio</li>
+          <li>Sobre mi</li>
+          <li>Portafolio web</li>
+          <li>Contacto</li>
+        </ul>
+      </div>
     </nav>
   )
 }
