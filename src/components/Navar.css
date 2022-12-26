@@ -9,9 +9,30 @@ nav {
 }
 li {
     list-style: none;
-    margin: 0 4px;
-
+    margin: 0 6px;
+    font-size: large;
+    font-weight: 600;
 }
-nav div ul {
+/* li:hover {
+} */
+/* nav div ul {
     display: flex;
+} */
+.menu-list {
+    display: none;
+}
+.icon-menu {
+    width: 80px;
+    /* color: white; */
+    /* background-color: white; */
+}
+
+.icon-menu-container {
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+/* estilos iconos */
+ion-icon {
+    font-size: 30px;
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import './Footer.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <p>Todos los derechos reservados</p>
+    </footer>
   )
 }
 
